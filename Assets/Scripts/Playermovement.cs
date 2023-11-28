@@ -6,9 +6,9 @@ using UnityEngine.EventSystems;
 public class Playermovement : MonoBehaviour
 {
 
-    [SerializeField] private float moveSpeed = 2;
-    [SerializeField] private float walkSpeed = 5f;
-    [SerializeField] private float runSpeed = 7f;
+    [SerializeField] private float moveSpeed = 4;
+    [SerializeField] private float walkSpeed = 10f;
+    [SerializeField] private float runSpeed = 15f;
     private CharacterController characterController;
 
     private Vector3 moveDirectionZ;
