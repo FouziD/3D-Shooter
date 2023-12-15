@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -76,7 +77,13 @@ public class Playermovement : MonoBehaviour
             characterController.Move(moveDirection * moveSpeed * Time.deltaTime);
 
             velocity.y += gravityValue * Time.deltaTime; // applies gravity
-            characterController.Move(velocity * Time.deltaTime);
+            characterController.Move(velocity * Time.deltaTime); 
+        
+           
+             
+
+
+             
         }
 
     private void Walk()
@@ -98,5 +105,7 @@ public class Playermovement : MonoBehaviour
     {
 
     }
+
+   
 }
 

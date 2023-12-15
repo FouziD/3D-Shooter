@@ -23,6 +23,7 @@ public class shooting : MonoBehaviour
 
                     Debug.Log("you are dead");
                     Destroy(hit.collider.gameObject);
+                  
                 }
             }
         }
