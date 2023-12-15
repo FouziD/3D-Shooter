@@ -17,7 +17,7 @@ public class EnemyMovement : MonoBehaviour
     public float closeEnough = 2f;
     
 
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -26,8 +26,12 @@ public class EnemyMovement : MonoBehaviour
         xMax = squareOfMovement;
         zMax = squareOfMovement;
         newLocation();
+       
+        
     }
+      
 
+   
     // Update is called once per frame
     void Update()
     {
